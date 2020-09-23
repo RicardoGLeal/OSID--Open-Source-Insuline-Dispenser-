@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OSID</string>
+
+    <string name="channel_name_insulina">canal_insulina</string>
+    <string name="channel_description_insulina">notificaciones de insulina</string>
+    <string name="CHANNEL_INSULINA_ID">11111</string>
+
+    <string name="channel_name_repositorio">canal_repositorio</string>
+    <string name="channel_description_repositorio">notificaciones de repositorio</string>
+    <string name="CHANNEL_REPOSITORIO_ID">22222</string>
+
+    <string name="channel_name_comidas">canal_comidas</string>
+    <string name="channel_description_comidas">notificaciones de comidas</string>
+    <string name="CHANNEL_COMIDAS_ID">33333</string>
+</resources>

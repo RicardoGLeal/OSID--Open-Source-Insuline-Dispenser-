@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeviceListAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/deviceName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Nombre BT"
+            />
+        <TextView
+            android:id="@+id/deviceAddress"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:textSize="10sp"
+            android:text="MAC"/>
+        <Button
+            android:id="@+id/connectBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Conectar"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</LinearLayout>

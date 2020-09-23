@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ws.wolfsoft.cryptostar.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:rotation="180"
+                    android:src="@drawable/ic_nextarrow" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create a Secured PIN"
+                        android:textColor="#141a22"
+                        android:textSize="19.2sp" />
+
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Secure your portfolio with a PIN"
+                        android:textColor="#6e7f8d"
+                        android:textSize="17.3dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+        <customfonts.EditText_SF_Pro_Display_Medium
+            android:id="@+id/edit_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginRight="19.2dp"
+            android:layout_marginTop="73.9dp"
+            android:background="@drawable/edit_txt_rect"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_btn"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/one"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/two"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/three"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/four"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/five"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/six"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/seven"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/eight"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/nine"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/zero"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/txt_color"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="25dp"
+                android:src="@drawable/ic_deleteimg"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <customfonts.Button_SF_Pro_Display_Semibold
+        android:id="@+id/bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="19.3dp"
+        android:background="@drawable/black_rect"
+        android:text="Create PIN"
+        android:textAllCaps="false"
+        android:textColor="#fbfbfb" />
+
+
+</RelativeLayout>

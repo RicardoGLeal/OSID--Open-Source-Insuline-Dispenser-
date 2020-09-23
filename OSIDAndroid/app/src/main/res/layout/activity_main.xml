@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:background="@color/blue"
+            android:layout_height="52dp">
+            <com.example.osid.MyTextView_Roboto_Regular
+                android:id="@+id/txtview_name_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="16.7sp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"
+                android:text="¡Bienvenido! Angel"/>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Switch
+                android:id="@+id/sw_active_basal_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle"
+                        />
+                    <EditText
+                        android:id="@+id/txtview_basal_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberDecimal"
+                        />
+
+                </RelativeLayout>
+                <com.example.osid.MyTextView_Roboto_Bold
+                    android:id="@+id/txtview_time_basal_per_hour_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Time: 48 min"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-35dp"/>
+                <com.example.osid.MyTextView_Roboto_Bold
+                    android:id="@+id/txtview_basal_per_hour_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="0.75 U/h"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/background_roundedcorners_darker"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="60dp">
+                <ImageButton
+                    android:id="@+id/add_basal_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_keyboard_arrow_up_black_32dp"
+                    android:layout_marginTop="3dp"
+                    />
+                <ImageButton
+                    android:id="@+id/substract_basal_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_keyboard_arrow_down_black_32dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="3dp"
+                    />
+            </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginTop="10dp"
+              android:background="@drawable/background_rounded_left_corners"
+              >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Insulina restante: "
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="15sp"
+                   android:background="@android:color/transparent"
+                   android:layout_marginLeft="8dp"
+
+                   />
+               <TextView
+                   android:id="@+id/txtview_insulina_restante"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="300"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="15sp"
+                   android:background="@android:color/transparent"
+                   android:layout_marginRight="30dp"
+                   />
+           </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/whitecard_rounded_top_corners"
+        android:orientation="vertical"
+
+        android:paddingTop="30dp"
+        android:paddingBottom="40dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/btn_openGlucometer_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:background="@android:color/transparent"
+                    />
+
+                <com.example.osid.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Glucometro"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_openOSID_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_gamepad_black_24dp"
+                    android:background="@android:color/transparent"
+                    />
+
+                <com.example.osid.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Manejo de OSID"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_openSettings_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_settings_black_24dp"
+                    android:background="@android:color/transparent"
+                    />
+
+                <com.example.osid.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Configuracion"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_openCharts_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_timeline_black_24dp"
+                    android:background="@android:color/transparent"/>
+
+                <com.example.osid.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Monitoreo"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/bluetoothStatuslbl_main_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conectado/Desconectado"
+            android:drawableLeft="@drawable/ic_action_on"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

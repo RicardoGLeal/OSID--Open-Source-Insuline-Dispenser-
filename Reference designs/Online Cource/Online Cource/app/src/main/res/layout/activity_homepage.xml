@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context="ws.wolfsoft.online_course.HomepageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="60dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_color"
+            android:text="Latest Courses"
+            android:textSize="17sp"/>
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="VIEW ALL"
+                android:textColor="#dd3e3e"/>
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView1"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img12"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="3dip"
+            app:riv_oval="false" />
+
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product UX Design"
+                android:layout_marginTop="3dp"
+                android:textColor="#585e66"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <customfonts.TextViewSFProDisplaySemibold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$59.99"
+                    android:textSize="13sp"
+                    android:textColor="@color/txt_color"/>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_clock1"/>
+
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/txt_color"
+                    android:textSize="7sp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"
+                    android:text="29 Hours"/>
+            </LinearLayout>
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img12"
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="3dip"
+                        app:riv_oval="false" />
+
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product UX Design"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#585e66"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <customfonts.TextViewSFProDisplaySemibold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$59.99"
+                            android:textSize="13sp"
+                            android:textColor="@color/txt_color"/>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/ic_clock1"/>
+
+
+                        <customfonts.TextViewSFProDisplayMedium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/txt_color"
+                            android:textSize="7sp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center"
+                            android:text="29 Hours"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:clipToPadding="false"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/white_rect">
+
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue Learning.."
+                android:padding="8dp"
+                android:textColor="@color/txt_color"
+                android:textSize="11sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#979797"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/bitmap_1"
+                    android:scaleType="centerCrop"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Web Design 101"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="11sp"
+                        android:textColor="@color/txt_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#a0a0a0"
+                        android:text="90%"
+                        android:textSize="10sp"/>
+
+                    <ImageView
+                        android:layout_width="10sp"
+                        android:layout_height="10sp"
+                        android:src="@drawable/ic_clock1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"/>
+
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2hrs left"
+                        android:textSize="10sp"
+                        android:textColor="#a0a0a0"/>
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@drawable/white_rect">
+
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue Learning.."
+                    android:padding="8dp"
+                    android:textColor="@color/txt_color"
+                    android:textSize="11sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#979797"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/bitmap_1"
+                        android:scaleType="centerCrop"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <customfonts.TextViewSFProDisplayRegular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Web Design 101"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="11sp"
+                            android:textColor="@color/txt_color" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.TextViewSFProDisplayMedium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#a0a0a0"
+                                android:text="90%"
+                                android:textSize="10sp"/>
+
+                            <ImageView
+                                android:layout_width="10sp"
+                                android:layout_height="10sp"
+                                android:src="@drawable/ic_clock1"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_gravity="center"/>
+
+
+                            <customfonts.TextViewSFProDisplayMedium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2hrs left"
+                                android:textSize="10sp"
+                                android:textColor="#a0a0a0"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_color"
+                android:text="Categories"
+                android:textSize="17sp"/>
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="VIEW ALL"
+                android:textColor="#dd3e3e"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_communication"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Communication"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_marketing1"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Marketing"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_content"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_ads"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Ads"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_analytics"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Analytics"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_support1"/>
+
+
+                    <customfonts.TextViewSFProDisplaySemibold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_color"
+                        android:textSize="12sp"
+                        android:text="Support"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="52.6dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        app:elevation="8dp"
+        android:layout_marginTop="15dp"
+        android:gravity="bottom|end"
+        android:layout_gravity="bottom"
+        app:bb_activeTabColor="#ffffff"
+        app:bb_inActiveTabColor="#a4ebfe"
+        app:bb_titleTypeFace="fonts/Roboto-Regular.ttf"
+        app:bb_showShadow="true"
+
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_titleTextAppearance="@style/botoombar_textchange"
+        app:paddingStart="10dp" />
+
+</RelativeLayout>

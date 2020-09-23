@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".informacion_personal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:rotation="180"
+                    android:src="@drawable/ic_nextarrow" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Registro de Información"
+                        android:textSize="19.2sp"
+                        android:textColor="#141a22"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Necesitamos conocerte"
+                        android:textSize="17.3dp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#6e7f8d"/>
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:textColor="@color/black">
+
+            <EditText
+                android:id="@+id/name_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:textColor="@color/black">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lastName1_lbl"
+                android:hint="Primer Apellido"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:textColor="@color/black">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lastName2_lbl"
+                android:hint="Segundo Apellido"
+                android:inputType="textPersonName|text|textCapWords"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:textColor="@color/black">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/age_lbl"
+                android:hint="Edad"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black">
+
+            <EditText
+                android:id="@+id/weight_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Peso"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black">
+
+            <EditText
+                android:id="@+id/basal_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Basal"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black">
+
+            <EditText
+                android:id="@+id/pgpu_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="¿Cuanta glucosa te baja una unidad en promedio?"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyledTilEditText"
+            android:layout_marginLeft="28.7dp"
+            android:layout_marginRight="28.7dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_lbl"
+                android:hint="Género"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/registerInfo_btn"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGroupID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/masculinoButtonID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/femeninoButtonID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino"></RadioButton>
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/registerInfo_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/black_rect"
+        android:textColor="#fbfbfb"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_margin="19.3dp"
+        android:text="Continuar"/>
+</RelativeLayout>

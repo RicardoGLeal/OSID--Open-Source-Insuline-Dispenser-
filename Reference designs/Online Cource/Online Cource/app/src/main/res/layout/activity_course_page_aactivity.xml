@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ws.wolfsoft.online_course.CoursePageAactivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:background="@color/black"/>
+
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:tint="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_back2"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_play1"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="12sp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00:14 / 41:12"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/ic_expand"/>
+                </LinearLayout>
+
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:progress="20"
+                    android:progressDrawable="@drawable/seekbar_style"
+                    android:splitTrack="false"
+                    android:layout_marginBottom="3dp"
+                    android:thumbTint="#00000000" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12sp"
+            android:orientation="vertical">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a0a0a0"
+                android:textSize="10sp"
+                android:text="Digital Marketing 101"/>
+
+
+            <customfonts.MyTextView_SF_Pro_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Learning the Basics"
+                android:textSize="15sp"
+                android:textColor="@color/txt_color"
+                android:layout_marginTop="3dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_clock1"/>
+
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/txt_color"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="10sp"
+                    android:text="14 Mins"/>
+            </LinearLayout>
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRANSCRIPT"
+                android:textSize="10sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/txt_color"/>
+
+
+            <customfonts.MyTextView_SF_Pro_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus. Nam dapibus nisl vitae elit fringilla rutrum."
+                android:textColor="@color/txt_color"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="5dp"/>
+
+
+
+            <customfonts.MyTextView_SF_Pro_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="#a0a0a0"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum Nam dapibus nisl vitae elit fringilla rutrum."
+                android:lineSpacingExtra="5dp"/>
+
+
+
+            <customfonts.MyTextView_SF_Pro_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus. Nam dapibus nisl vitae elit fringilla rutrum."
+                android:textColor="@color/txt_color"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="5dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <customfonts.Button_SF_Pro_Display_Semibold
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="Prev Chapter"
+            android:textSize="11sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="7.5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/grey_rect"/>
+
+        <customfonts.Button_SF_Pro_Display_Semibold
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="7.5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Next Chapter"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/red_rect"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

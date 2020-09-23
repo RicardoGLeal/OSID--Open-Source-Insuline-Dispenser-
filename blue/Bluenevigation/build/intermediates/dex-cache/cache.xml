@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-82940cbfc9b5820ae0859484960d2cadafe373bf.jar" />
+    </item>
+    <item
+        jar="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-a3d5e220da664039b9a88e284e46550d794217df.jar" />
+    </item>
+    <item
+        jar="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/exploded-aar/com.alexzh/circleimageview/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bef8a6e9c48d173c5507cf734637b0726dc3afb1">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-7b25c035b9e037bfc4644683d92525ab654ced8e.jar" />
+    </item>
+    <item
+        jar="/home/zero/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-d03f5c2641bbd51fc3c129264228ee15ddba238a.jar" />
+    </item>
+    <item
+        jar="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-88fa6c2befe86b43e9b058fac311baaacef5a11f.jar" />
+    </item>
+    <item
+        jar="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-7c279f5b493bbd079138ff4abf4a82aa901cf430.jar" />
+    </item>
+    <item
+        jar="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-d3504b3430e8b3205eba7244a59904309aadb7dd.jar" />
+    </item>
+    <item
+        jar="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-4170a0061495c8d9efeea8d7b7438e4f4520df5f.jar" />
+    </item>
+    <item
+        jar="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/exploded-aar/com.alexzh/circleimageview/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bef8a6e9c48d173c5507cf734637b0726dc3afb1">
+        <dex dex="/media/zero/C244A60644A5FCF3/Manthan - 9-2-2016/akib/blue/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-3145e5f7178495c9ce8639badba473acfd98a4b3.jar" />
+    </item>
+    <item
+        jar="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-4d59fa7fba8cdd8a0bf5ccd913222c8e08b9af7c.jar" />
+    </item>
+    <item
+        jar="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/zero/3-1-2016/project/29-12-2015/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-4f95602f3e7bca6bce7ad1307e757bea3fffed19.jar" />
+    </item>
+
+</items>

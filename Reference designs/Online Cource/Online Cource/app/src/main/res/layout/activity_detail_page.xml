@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ws.wolfsoft.online_course.DetailPageActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/img12"
+        android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:tint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_back2"/>
+    </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Doe"
+                    android:textSize="10sp"
+                    android:textColor="#a0a0a0"/>
+
+
+                <customfonts.MyTextView_SF_Pro_Light
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Digital Marketing 101"
+                    android:layout_marginTop="4dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/txt_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/dark_circle_red"/>
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/dark_circle_red"/>
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/dark_circle_red"/>
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/dark_circle_red"/>
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/dark_circle_grey"/>
+
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#a0a0a0"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="7dp"
+                        android:text="512 ratings"/>
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:src="@drawable/ic_clock1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="42 hours"
+                        android:textSize="10sp"
+                        android:textColor="@color/txt_color"
+                        android:layout_marginLeft="4dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_bookmark2"/>
+        </LinearLayout>
+
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="10sp"
+            android:textColor="@color/txt_color"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"/>
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_color"
+            android:textSize="13sp"
+            android:lineSpacingExtra="2dp"
+            android:text="Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum"
+            android:layout_margin="12dp"/>
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHAPTERS"
+            android:textSize="10sp"
+            android:textColor="@color/txt_color"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal">
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/dark_circle_sky"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI Design for the Web"
+                    android:textSize="12.8dp"
+                    android:textColor="#585e66"/>
+
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a0a0a0"
+                    android:textSize="10dp"
+                    android:text="Get started with the basics"/>
+            </LinearLayout>
+
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12mins"
+                android:textSize="10sp"
+                android:textColor="#a0a0a0"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal">
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/dark_circle_green"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI Design for the Web"
+                    android:textSize="12.8dp"
+                    android:textColor="#585e66"/>
+
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a0a0a0"
+                    android:textSize="10dp"
+                    android:text="Get started with the basics"/>
+            </LinearLayout>
+
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12mins"
+                android:textSize="10sp"
+                android:textColor="#a0a0a0"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <customfonts.Button_SF_Pro_Display_Semibold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started with this Course"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_margin="12sp"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/red_rect"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
